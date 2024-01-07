@@ -14,12 +14,10 @@ git clone https://github.com/timothepoznanski/tetris .
 docker run --name tetris -v /home/YOURUSERNAME/tetris/:/usr/share/nginx/html:ro -d -p 88:80 nginx
 ```
 
-### Standalone Local
+### Standalone Local with an nginx server already installed
 ```sh
 mkdir ~/tetris
 cd ~/tetris
 git clone https://github.com/timothepoznanski/tetris .
 sudo cp * /usr/share/nginx/html
 ```
-Once downloaded and place in a web server directory, open it in your browser
-
