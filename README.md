@@ -1,7 +1,7 @@
 #### Forked from https://github.com/bsord/tetris
 
 ## Getting Started
-Running the game is simple:
+Running the game:
 ### Prebuilt Docker image (not easily editable)
 ```sh
 docker run -d -p 80:80 --name tetris timothepoznanski/tetris
