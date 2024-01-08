@@ -4,7 +4,7 @@
 Running the game:
 ### Prebuilt Docker image (not easily editable)
 ```sh
-docker run -d -p 80:80 --name tetris timothepoznanski/tetris
+docker run -d -p 80:80 --name tetris pozinux/tetris
 ```
 ### Nginx Docker with volume mounts (easily edit)
 ```sh
